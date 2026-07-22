@@ -1,6 +1,8 @@
 // // let str = "hello";
 // // let arr = ['h', 'e', '1', '1', '0'];
 
+const { use } = require("react");
+
 // // // console.log(str.length);
 // // // console.log(arr.length);
 
@@ -140,3 +142,40 @@
 
 // car.year = 2023;
 // console.log(car)
+
+
+// let book = {
+//     title:"The Hobbit",
+//     author:"Tolkien",
+//     pages: 310,
+// }
+
+// // delete book.pages
+// // console.log(book)
+
+
+// let getKeys = Object.keys(book);
+// // console.log(getKeys)
+
+
+// let allArray = Object.entries(book);
+// // console.log(allArray)
+
+
+let user = {
+    username:"coder123",
+    address:{
+        city:"Austin",
+        zip:"78701"
+    }
+}
+
+// console.log(user.address.city);
+
+// user.address.country = "Poland";
+
+console.log(user);
+
+// delete user["address"]["zip"]
+// delete user.address.zip;
+// console.log(user)
