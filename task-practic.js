@@ -107,3 +107,36 @@
 // console.log(student.name);
 
 
+// Object
+
+// object is a important method in programming and our reail life . any product , device and many other thing need to dat stored in one place but every data are defferent . unlimited data stored in object in separetly. 
+
+
+// let myLaptop = {
+//     band:"HP",
+//     model: "15 fd",
+//     price: 67000,
+//     made: 'Chaina',
+//     storage: "512 Gb",
+//     ram: "16 Gb",
+//     core: "i5",
+
+// },
+
+
+
+// let car = {
+//     brand: "Toyota",
+//     model: "Corolla",
+//     year: 2022,
+// };
+
+
+// // console.log(car.brand);
+// // console.log(car["model"]);
+
+// car["color"] = "blue";
+// // console.log(car)
+
+// car.year = 2023;
+// console.log(car)
